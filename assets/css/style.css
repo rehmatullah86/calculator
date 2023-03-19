@@ -1,0 +1,72 @@
+/*------------------Tag Selector------------------*/
+
+/*------------------Class Selector------------------*/
+.container {
+  border-radius: 25px;
+  height: 500px;
+  width: 320px;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+.calculator {
+  border-radius: 28px;
+  padding: 16px;
+  display: grid;
+  grid-template-columns: repeat(4, 66px);
+}
+
+input {
+  font-size: 2rem;
+  grid-column: span 4;
+  height: 68px;
+  width: 250px;
+  border-radius: 20px;
+  color: black;
+  text-align: end;
+  padding: 10px;
+  margin: 30px 0 15px 10px;
+}
+
+.button {
+  border: none;
+  margin: 6px;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  font-size: 1.6rem;
+}
+
+.point {
+  margin-left: 68px;
+}
+.zeroButton {
+  width: 120px;
+  border-radius: 42px;
+  border: none;
+}
+
+.sign {
+  color: #fff;
+  background-color: #a5a5a5;
+}
+
+.operator {
+  color: #fff;
+  background-color: #ff9f0a;
+}
+.equal {
+  color: #fff;
+  background-color: #ff9f0a;
+}
+.number {
+  color: #fff;
+  background-color: #343434;
+}
+
+/*------------------ID Selector------------------*/
+
+/*------------------Media Query------------------*/ ;
